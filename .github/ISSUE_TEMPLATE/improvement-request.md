@@ -8,9 +8,9 @@ assignees: ''
 ---
 
 **What is it?**
--[ ] New feature.
--[ ] Improvement to existing features.
--[ ] Remove something.
+- [ ] New feature.
+- [ ] Improvement to existing features.
+- [ ] Remove something.
 
 **Real problem, or just a cool idea?**
 
