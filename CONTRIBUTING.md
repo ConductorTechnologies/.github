@@ -1,4 +1,4 @@
-# Contributing to Conductor Client tools
+# Contributing to Conductor Client Tools
 
 This document contains general guidelines for developers wishing to contribute code to any Conductor client tools and libraries. Please familiarize yourself with this before you submit a pull request. You'll find specific contributor instructions for individual tools in the `CONTRIBUTING.md` file in the respective repository.
 Contributions are always welcome!
@@ -25,7 +25,7 @@ CircleCI workflows are triggered when you push tagged commits to Github. We use 
 
 Releases and Pre-releases must be unique on **pypi**. Beta releases must be unique on **test.pypi**.
 
-### Deployment workflow
+### Skulk
 
 There is a tool called [`skulk`](https://github.com/ConductorTechnologies/skulk). It is a command-line wizard that you can use to facilitate deployment. It is installed if you installed `requirements_dev.txt` as mentioned above. We strongly recommend using `skulk` to deploy.
 
