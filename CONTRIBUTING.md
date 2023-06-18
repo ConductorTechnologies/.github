@@ -43,10 +43,12 @@ NOTE: You can't make a full release with `skulk` from a non-master branch.
 
 ## Code Guidelines (WIP)
 
+These guidelines below apply to changes that you would like to merge to master. However, you don't have to merge to master to give customers fast updates. Conductor's DCC plugins are set up to deploy pre-releases to PyPi from any branch. If a customer is helping to test functionality and you need to iterate several times a day, you can instruct them to use `rc` updates.
+
 * **Write tests.** Untested code is instant technical debt.
 * **Write docstrings.** 
 * **Comments smell.**
-* **Refactor.** As you add code, think about how it affects the system as a whole and restructure if necessary. If you were adding an extension to a house, you'd think about the way it affects the aesthetic, the extra stress it adds to the foundations, and your ability to extend further in the future. Copious amounts of comments are an indication that the code should be refactored to be more readable. 
+* **Refactor.** As you add code, think about how it affects the system as a whole and restructure it if necessary. If you were adding an extension to a house, you'd think about the way it affects the aesthetic, the extra stress it adds to the foundations, and your ability to extend further in the future. Copious amounts of comments are an indication that the code should be refactored to be more readable. 
 * **Use a linter.**
 * **Make clean commits.** Clean commit history makes everyone's life easier, including your future self. See [here](https://about.gitlab.com/blog/2018/06/07/keeping-git-commit-history-clean/).
   - Check to make sure no unwanted files make their way into the repo. Ideally, add files one by one, checking as you go. This is easy with a git GUI such as the one in Vscode. 
