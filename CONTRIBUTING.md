@@ -43,13 +43,18 @@ NOTE: You can't make a full release with `skulk` from a non-master branch.
 
 ## Code Guidelines (WIP)
 
-1. **Write tests.** 
-2. **Write docstrings** 
-3. **Comments smell**
-4. **Refactor**
-5. **Use a linter**
-6. **Use Snyk**
-7. **Yada yada**
+* **Write tests.** 
+* **Write docstrings** 
+* **Comments smell**
+* **Refactor**
+* **Use a linter**
+* **Make clean commits.**
+  - Check to make sure no unwanted files make their way into the repo. Ideally, add files one by one, checking as you go. This is easy with a git GUI such as the one in Vscode. 
+  - Try to make each commit encapsulate one logical change, and give it a descriptive commit message.
+  - If making changes to poorly formatted code, put formatting in a separate commit to logic changes, preferably before.
+  - Don't blindly do: `git add . && git commit -m "some updates"`.
+* **Use Snyk**
+* **Yada yada**
 
 ## Code Reviews
 
