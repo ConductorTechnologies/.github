@@ -1,10 +1,8 @@
 ## Summary
 
-Describe your changes. Please include motivation and context.
+Could you describe your changes? Please include motivation and context.
 
-## Ticket number and link
-
-Issue # (link)
+## Issue # (link)
 
 ## Type of change
 
@@ -26,12 +24,12 @@ Issue # (link)
 - [ ] New and existing tests pass locally
 - [ ] Changes to dependencies have been merged and published
 
-## Screenshots or movies (if appropriate)
+## Screenshots/movies
 
 ## Note to reviewers
 
 Please use codes in comments to indicate whether or not action should be taken. For example:
-* `[NIT]` Spelling, naming, minor preference or style issue.
+* `[NIT]` Spelling, naming, minor preference, or style issue.
 * `[OPT]` Code issue, far from critical. Optional to fix.
-* `[REQ]` Requires fixing due to guidelines or critical bug.
+* `[REQ]` Requires fixing due to guidelines or critical bugs.
 
