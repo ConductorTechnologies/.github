@@ -12,8 +12,6 @@ assignees: ''
 - [ ] Improvement to existing features.
 - [ ] Remove something.
 
-**Real problem, or just a cool idea?**
-
 **If it was up to you, how would you solve it?**
 
 **Any workarounds or alternatives?**
