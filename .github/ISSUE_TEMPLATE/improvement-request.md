@@ -1,7 +1,7 @@
 ---
 name: Improvement request
 about: Suggest an idea for this project
-title: "[IMPROVEMENT REQUEST]"
+title: ""
 labels: ''
 assignees: ''
 
